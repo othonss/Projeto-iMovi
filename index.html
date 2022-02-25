@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iMovi</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <!-- Fontes do Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2? família= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 & display=swap" rel="stylesheet">
+        <!-- Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+        <!--Bootstrap 5 ícones-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--
+            Instruções das classes Bootstrap 5 utilizadas:
+
+            *** [nav] ***
+            - navbar-expand-lg É utilizado para expandir o menu (junto com os ícones para tela maiores)
+            - fixed-top É para fixar o menu em caso de rolagem da tela
+            
+              *** [div] ***
+                - container É utilizado para limitações de conteúdo
+                - py-3 É utilizado para colocar espaçamento no eixo y (vertical)
+
+                    *** [a] ***
+                    - navbar-brand É utilizado para representar alguma imagem, pondendo utilizar um texto
+                    *** [button] ***
+                    - navbar-toggler É utilizado para alternar a visibilidade do menu, no caso de um layout maior para um menor
+                    *** [div] ***
+                    - collapse é para indicar os itens que serão ocultos quando houver alternância de tamanhos do layout
+                    - navbar-collapse é para indicar que será uma barra de navegação com alternância
+
+                        *** [ul] ***
+                        - navbar-nav para indicar uma barra de navegação
+                        - me-auto para deixar as margins laterais automáticas
+                        - mb-2 para dar uma margem inferior de 0.5 rem
+                        - mb-lg-0 para não acrescentar margem em telas largas 
+
+                            *** [li] ***
+                            - nav-item para indicar que é um item do navbar 
+                                *** [a] ***
+                                - nav-link para indicar que é um link do item do navbar
+                                - active para indicar, visualmente no menu, a página acessada no momento com o aria-current="page", 
+                                sendo necessário, se quiser, aplicar o estilo.
+        -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+            <div class="container py-3">
+                <a href="#" class="navbar-brand primary-color">
+                    <img src="img/imovi-icon.png" alt="iMovi Logo">
+                    <span>iMovi</span>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbar-items"
+                    aria-controls="navbar-items"
+                    aria-expander="false"
+                    aria-label="Toggle navigation"
+                >
+                    <!-- Chamada dos ícones do Bootstrap 5-->
+                    <i class="bi bi-list"></i>
+                </button>
+                <!-- O id navbar-items utilizado aqui, é para ser usado de referência no data-bs-target do button acima -->
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active primary-color" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link primary-color">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link primary-color">Imóveis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link primary-color">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Bootstrap 5-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
