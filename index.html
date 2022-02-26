@@ -336,7 +336,100 @@
                 </div>
             </div>
         </div>
+         <!--
+            Instruções das classes e atributos Bootstrap 5 utilizadas no Informações:
 
+            *** [div] ***
+            - container É utilizado para limitações de conteúdo
+                 *** [div] ***
+                - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                    *** [h2] ***
+                    - title definições utilizadas por mim no style.css
+                    - primary-color é a classe para colocar a cor definida por mim
+                    *** [p] ***
+                    - subtitle definições utilizadas por mim no style.css
+                    - secondary-color é a classe para colocar a cor definida por mim
+                *** [div] ***
+                    - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                        *** [div] ***
+                        - row é utilizado para trabalhar com o layout em linhas
+                            *** [div] ***
+                            - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                            - col-md-5 É utilizado para trabalhar com 5 colunas, neste caso fará os banners ocuparem cada um 4 colunas
+                                *** [img] ***
+                                - img-fluid é utilizado para indicar para imagem ocupar o espaçamento disponível onde ela for inserida
+                            *** [div] ***
+                            - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                            - col-md-7 É utilizado para trabalhar com 7 colunas, neste caso fará os banners ocuparem cada um 4 colunas
+                            - bg-secondary-color é utilizado para aplicar uma cor de fundo
+                                *** [div] ***
+                                - row é utilizado para trabalhar com o layout em linhas
+                                     *** [div] ***
+                                     - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                                        *** [h2] ***
+                                        - title definições utilizadas por mim no style.css
+                                        - primary-color é a classe para colocar a cor definida por mim
+                                        *** [p] ***
+                                        - subtitle definições utilizadas por mim no style.css
+                                        - secondary-color é a classe para colocar a cor definida por mim
+        -->
+         <div class="container" id="info-container">
+            <div class="col-12">
+                <h2 class="title primary-color">Detalhes Importantes</h2>
+                <p class="subtitle secondary-color">
+                    Saiba mais sobre a experiência da nossa incrível equipe
+                </p>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-5" id="info-banner">
+                        <img src="img/infobanner.jpg" alt="Informações da Empresa" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="title primary-color">Estes dados fazem a diferença</h2>
+                                <p class="subtitle secondary-color">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio illo natus vel obcaecati id aspernatur et animi necessitatibus ut blanditiis, eveniet molestiae illum quod ad atque distinctio dolore quia.
+                                </p>
+                            </div>
+                            <div class="col-12" id="info-numbers">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h3 class="primary-color">
+                                            18
+                                        </h3>
+                                        <p class="secondary-color">Anos na construção civil</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="primary-color">
+                                            95
+                                        </h3>
+                                        <p class="secondary-color">Projetos exucutados</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="primary-color">
+                                            639
+                                        </h3>
+                                        <p class="secondary-color">Clientes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <a href="" class="btn btn-dark">Saber Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!--
+            Instruções das classes e atributos Bootstrap 5 utilizadas no DESTAQUES:
+
+            *** [div] ***
+
+        -->
+         
 
         <!-- Bootstrap 5-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
