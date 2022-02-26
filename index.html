@@ -254,7 +254,88 @@
                 </div>
             </div>
         </div>
+        <!--
+            Instruções das classes e atributos Bootstrap 5 utilizadas no DESTAQUES:
 
+            *** [div] ***
+            - container É utilizado para limitações de conteúdo
+                *** [div] ***
+                - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                    *** [h2] ***
+                    - title definições utilizadas por mim no style.css
+                    - primary-color é a classe para colocar a cor definida por mim
+                    *** [p] ***
+                    - subtitle definições utilizadas por mim no style.css
+                    - secondary-color é a classe para colocar a cor definida por mim
+                    *** [div] ***
+                    - col-12 definará que o conteúdo ocupará sempre 12 colunas do grid do Bootstrap
+                        *** [div] ***
+                        - row é utilizado para trabalhar com o layout em linhas  
+                        - g-4 é utilizado para dar um espaçamento entre as colunas
+                            *** [div] ***
+                            - col-12 É utilizado para trabalhar com grid de 12 colunas do boostrap (levar em consideração o mobile first)
+                            - col-md-4 É utilizado para trabalhar com 4 colunas, neste caso fará os banners ocuparem cada um 4 colunas 
+                            *** [img] ***
+                            - img-fluid é utilizado para indicar para imagem ocupar o espaçamento disponível onde ela for inserida
+                            *** [div] ***
+                            - banner-content é utilizado para incluir uma pequena descrição abaixo da imagem
+                                *** [p] ***
+                                - secondary-color é a classe para colocar a cor definida por mim
+        -->
+        <div class="container" id="featured-container">
+            <div class="col-12">
+                <h2 class="title primary-color">Trabalhos em Destaque</h2>
+                <p class="subtitle secondary-color">
+                    Conheça nossos projetos mais desafiadores
+                </p>
+                <div class="col-12" id="featured-images">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-1.jpg" alt="Projeto 1" class="img-fluid">
+                            <div class="banner-content">
+                                <p class="secondary-color">Cozinha</p>
+                                <h3>Cozinhas magnificas</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-2.jpg" alt="Projeto 2" class="img-fluid">
+                            <div class="banner-content">
+                                <p class="secondary-color">Varanda</p>
+                                <h3>Varandas magnificas</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-3.jpg" alt="Projeto 3" class="img-fluid">
+                            <div class="banner-content">
+                                <p class="secondary-color">Salas</p>
+                                <h3>Salas magnificas</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-4.jpg" alt="Projeto 4" class="img-fluid">
+                            <div class="banner-content">
+                                <p class="secondary-color">Escadas</p>
+                                <h3>Escadas magnificas</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-5.jpg" alt="Projeto 5" class="img-fluid">
+                            <div class="banner-content">
+                                <p class="secondary-color">Cozinha</p>
+                                <h3>Cozinhas magnificas</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-6.jpg" alt="Projeto 6" class="img-fluid">
+                            <div class="banner-content">
+                                <p class="secondary-color">Telhas</p>
+                                <h3>Telhados magnificas</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Bootstrap 5-->
