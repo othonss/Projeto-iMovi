@@ -22,6 +22,7 @@
     color: #7a7a7a;
 }
 
+/* NAVEGAÇÃO */
 #navbar {
     border-bottom: 1px solid #7a7a7a;
 }
@@ -58,6 +59,7 @@
     margin: 0 1em;
 }
 
+/* SLIDER */
 #slider {
     margin-top: 8em;
     margin-bottom: 1em;
@@ -113,5 +115,35 @@
 
     .carousel-indicators {
         bottom: 7em;
+    }
+}
+
+/* MINI BANNERS */
+#mini-banners {
+    margin-bottom: 4em;
+}
+
+#mini-banners .card {
+    padding: 2em 0.3em;
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+
+#mini-banners i {
+    font-size: 4em;
+}
+
+#mini-banners .card-title {
+    margin-bottom: 1.5em;
+}
+
+#mini-banners .btn {
+    margin-top: 1.5em;
+    padding: 0.6em 1.2em;
+}
+
+@media (min-width: 768px){
+    #mini-banners{
+        margin-top: -6em;
     }
 }
